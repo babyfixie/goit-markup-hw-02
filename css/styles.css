@@ -1,23 +1,9 @@
 /* Global */
 
-:root {
-    --iris: #4d5ae5;
-    --ocean: #404bbf;
-    --navy-blue: #2e2f42;
-    --green: #31d0aa;
-    --slate: #434455;
-    --light-slate: #8e8f99;
-    --cornflower: #e7e9fc;
-    --cloud: #f4f4fd;
-    --navy-blue-modal: rgba(46, 47, 66, 0.4);
-    --grey: rgba(46, 47, 66, 0.7);
-    --white: #fff;
-    --dairy: #fcfcfc;
-}
-
 body {
-    font-family: "Roboto", Arial, Helvetica, sans-serif;
-    color: var(--navy-blue);
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #ffffff;
 }
 
 ul {
@@ -27,7 +13,7 @@ ul {
 /* Header */
 
 header {
-    background-color: var(--white);
+    background-color: #ffffff;
 }
 
 .header-logo {
@@ -35,14 +21,14 @@ header {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.33;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--iris);
+    color: #4d5ae5;
 }
 
 .header-logo span {
-    color: var(--navy-blue);
+    color: #2e2f42;
 }
 
 .header-list-item,
@@ -52,15 +38,17 @@ header {
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
-    color: var(--navy-blue);
-    font-style: normal;
+}
+
+.header-list-item {
+    color: #2e2f42;
 }
 
 .header-list a:hover,
 .header-list a:focus,
 .header-address a:hover,
 .header-address a:focus {
-    color: var(--ocean);
+    color: #404bbf;
 }
 
 .header-address a {
@@ -68,29 +56,36 @@ header {
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
-    color: var(--slate);
+    color: #434455;
+    font-style: normal;
 }
+
 /* Main */
 
 .hero {
-    background-color: var(--navy-blue);
+    background-color: #2e2f42;
+    color: #fff;
+}
+
+.hero-title {
+    color: #ffffff;
     font-weight: 700;
     font-size: 56px;
-    line-height: 107%;
+    line-height: 1.07;
+    text-align: center;
     letter-spacing: 0.02em;
-    color: var(--white);
 }
 
 .hero-btn {
+    font-family: "Roboto", sans-serif;
     border-radius: 4px;
     padding: 16px 32px;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-    background: var(--iris);
+    background: #4d5ae5;
     font-weight: 500;
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.04em;
-    color: var(--white);
+    color: #fff;
     border: none;
     cursor: pointer;
     transition: background-color 0.4s;
@@ -98,11 +93,11 @@ header {
 
 .hero-btn:hover,
 .hero-btn:focus {
-    background-color: var(--ocean);
+    background-color: #404bbf;
 }
 
 .about-section {
-    background-color: var(--white);
+    background-color: #fff;
 }
 
 .about-title {
@@ -110,17 +105,16 @@ header {
     font-size: 20px;
     line-height: 120%;
     letter-spacing: 0.02em;
-    color: var(--navy-blue);
+    color: #2e2f42;
 }
 
 .about-desc {
     line-height: 150%;
     letter-spacing: 0.02em;
-    color: var(--slate);
 }
 
 .team-section {
-    background-color: var(--cloud);
+    background-color: #f4f4fd;
 }
 
 .team-title {
@@ -128,49 +122,56 @@ header {
     font-size: 36px;
     line-height: 111%;
     letter-spacing: 0.02em;
-    color: var(--navy-blue);
+    color: #2e2f42;
 }
 
 .team-name {
     font-weight: 500;
     font-size: 20px;
-    line-height: 120%;
+    line-height: 1.2;
     letter-spacing: 0.02em;
-    color: var(--navy-blue);
+    color: #2e2f42;
 }
 
 .team-skill {
     line-height: 150%;
     letter-spacing: 0.02em;
-    color: var(--slate);
 }
 
 .portfolio-section {
-    background-color: var(--white);
-    letter-spacing: 0.02em;
+    background-color: #fff;
+}
+
+.portfolio-item {
+    background-color: #ffffff;
 }
 
 .section-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 111%;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+    text-align: center;
 }
 
 .portfolio-title {
     font-weight: 500;
     font-size: 20px;
-    line-height: 120%;
+    letter-spacing: 0.02em;
+    line-height: 1.2;
+    color: #2e2f42;
 }
 
 .portfolio-category {
-    line-height: 150%;
-    color: var(--slate);
+    line-height: 1.5;
 }
 
 /* Footer */
 
 footer {
-    background: var(--navy-blue);
+    background: #2e2f42;
 }
 
 .footer-logo {
@@ -181,14 +182,15 @@ footer {
     line-height: 1.33;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--iris);
+    color: #4d5ae5;
 }
 
 .footer-logo span {
-    color: var(--cloud);
+    color: #f4f4fd;
 }
+
 .footer-text {
-    line-height: 150%;
+    line-height: 1.17;
     letter-spacing: 0.02em;
-    color: var(--cloud);
+    color: #f4f4fd;
 }
