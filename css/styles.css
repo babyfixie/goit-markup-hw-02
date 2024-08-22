@@ -81,16 +81,13 @@ header {
 
 .hero-btn {
     font-family: "Roboto", sans-serif;
-    border-radius: 4px;
     background: #4d5ae5;
     font-weight: 500;
     font-size: 16px;
-    line-height: 150%;
+    line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #fff;
-    border: none;
+    color: #ffffff;
     cursor: pointer;
-    transition: background-color 0.4s;
 }
 
 .hero-btn:hover {
@@ -114,7 +111,7 @@ header {
 }
 
 .about-desc {
-    line-height: 150%;
+    line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
