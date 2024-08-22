@@ -33,7 +33,7 @@ header {
 .header-logo {
     text-decoration: none;
     font-family: "Raleway", sans-serif;
-    font-weight: 800;
+    font-weight: 700;
     font-size: 18px;
     line-height: 1.33;
     letter-spacing: 0.03em;
@@ -45,8 +45,8 @@ header {
     color: var(--navy-blue);
 }
 
-.header-nav a,
-.header-address a {
+.header-list-item,
+.header-address-item {
     text-decoration: none;
     font-weight: 500;
     font-size: 16px;
@@ -56,8 +56,8 @@ header {
     font-style: normal;
 }
 
-.header-nav a:hover,
-.header-nav a:focus,
+.header-list a:hover,
+.header-list a:focus,
 .header-address a:hover,
 .header-address a:focus {
     color: var(--ocean);
@@ -176,7 +176,7 @@ footer {
 .footer-logo {
     text-decoration: none;
     font-family: "Raleway", sans-serif;
-    font-weight: 800;
+    font-weight: 700;
     font-size: 18px;
     line-height: 1.33;
     letter-spacing: 0.03em;
